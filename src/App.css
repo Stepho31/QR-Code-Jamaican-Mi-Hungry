@@ -1,0 +1,169 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('/Jamaican.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Remove default link styling */
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.app-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  max-width: 160px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.business-name {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.menu-tab {
+  background: #e0e0e0;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-tab:hover {
+  background-color: #ccc;
+}
+
+.menu-tab.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.menu-content {
+  padding: 0 10px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.menu-items {
+  display: grid;
+  gap: 16px;
+}
+
+.menu-card {
+  display: block;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+  text-decoration: none;  
+  color: inherit;          
+}
+
+
+.menu-card:hover {
+  transform: scale(1.01);
+  background-color: #f9f9f9;
+}
+
+.menu-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.item-price {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.item-description {
+  margin-top: 6px;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.item-detail {
+  padding: 20px;
+  text-align: center;
+}
+
+.item-detail h2 {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4); 
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.item-detail .item-price,
+.item-detail .item-description {
+  color: #ffffff;
+}
+
+.detail-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.business-name {
+  color: #34942b; 
+  font-family: 'Playfair Display, serif'; 
+  font-size: 2rem; 
+}
