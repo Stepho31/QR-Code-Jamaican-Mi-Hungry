@@ -7,6 +7,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional for smoother mobile scrolling */
+  overflow-x: hidden;
 }
 
 /* Remove default link styling */
@@ -21,6 +23,7 @@ a, a:visited, a:hover, a:active {
   margin: auto;
   padding: 20px;
   position: relative;
+  height: 100dvh;
 }
 
 .app-header {
