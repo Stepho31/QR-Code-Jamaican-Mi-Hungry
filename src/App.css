@@ -34,6 +34,19 @@ a, a:visited, a:hover, a:active {
   margin-bottom: 10px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh; /* fill the full screen height */
+  padding-bottom: 20px; /* optional space */
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
 .business-name {
   font-size: 2rem;
   color: #ffffff;
@@ -160,6 +173,15 @@ a, a:visited, a:hover, a:active {
   padding: 8px 12px;
   border-radius: 8px;
   z-index: 10;
+}
+
+@media (max-width: 600px) {
+  .back-button {
+    font-size: 0.75rem;
+    padding: 4px 8px;
+    top: 5px;
+    left: 5px;
+  }
 }
 
 .business-name {
